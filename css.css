@@ -1,0 +1,86 @@
+body {
+  font-family: garamond;
+  background: #ecb939;
+  color: black;
+  text-align: left;
+  padding: 10px 50px 10px 50px;
+  font-size: 20px;
+}
+
+header {
+  text-align: center;
+  line-height: 10px;
+}
+header:hover {
+  color: #726255;
+}
+#title {
+  font-family: 'Harry Potter', sans-serif;
+  font-size: 70px;
+}
+
+#image {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+#img-div {
+  background-color: #372e29;
+  padding: 30px;
+  margin: 0;
+}
+#img-caption {
+  margin: 15px 0 5px 0;
+  text-align: center;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+ul {
+  text-align: left;
+  line-height: 1.2;
+}
+li {
+  margin: 16px 0;
+}
+
+form {
+  display: inline-block;
+  width: 500px;
+  height: 30px;
+}
+input[type='checkbox'] {
+  margin: 10px 3px 10px 5px;
+}
+input[type='radio'] {
+  margin: 0 3px 5px 5px;
+}
+#submit {
+  border-radius: 5px;
+  color: white;
+  background-color: #372e29;
+  padding: 2px 2px 2px 2px;
+  }
+ #submit:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards; /*the button stay highlighted when mouth still hovering*/
+  }
+ @keyframes background-color {
+   100% {
+     background-color: #726255;
+   }
+ }
+
+blockquote {
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  font-size: 30px;
+  font-style: italic;
+}
